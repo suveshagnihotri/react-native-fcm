@@ -1,4 +1,5 @@
-# simple-fcm-client
+# React-native fcm sample
+
 
 ## iOS
 
@@ -7,9 +8,7 @@
 - `yarn install`
 - Overwrite `ios/GoogleService-info.plist` with your file
 - Change the _Bundle Identifier_ in Xcode project settings
-- Select your _Team_ for both targets (`SimpleFcmClient` and `SimpleFcmClientTests`)
-- Update your API_KEY [here](https://github.com/evollu/react-native-fcm/blob/master/Examples/simple-fcm-client/app/FirebaseConstants.js#L3)
+- Select your _Team_ for both targets 
+- Update your API_KEY from pushcontroller.js
 
-## Android
 
-TBA - PRs welcome!
